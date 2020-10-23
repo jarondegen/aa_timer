@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "aa_timer",
+    "password": "password",
+    "database": "aa_timer_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize"
+  },
+  "test": {
+    "username": "jackpot_degen",
+    "password": "jack1234",
+    "database": "jackpot_degen_app_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "seederStorage": "sequelize"
+  },
+  "production": {
+    "dialect": "postgres",
+    "seederStorage": "sequelize",
+    "use_env_variable": "DATABASE_URL"
+  }
+}
